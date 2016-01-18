@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gitproject.y34h1a.alarmmanagerdemo.WakeUpActivity"
+    android:background="#3F3F3F"
+    tools:showIn="@layout/activity_wake_up">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="60dp"
+            android:textColor="#939393"
+            android:text="Wake Up !"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/btAlarmStop"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/flat_selector"
+            android:layout_below="@id/tvAlarmTime"
+            android:textColor="#ffffff"
+            android:text="Stop Alarm"/>
+    </LinearLayout>
+
+</RelativeLayout>
